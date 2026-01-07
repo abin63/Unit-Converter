@@ -1,31 +1,33 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: "Merriweather", serif;
 }
 
 .container {
     width: 550px;
-    height: 729px;
-    margin: 0 auto;
+    height: 730px;
+    margin: 60px auto;
     position: relative;
     background-color: whitesmoke;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .metric-section {
     width: 550px;
     height: 285px;
     background-color: #6943FF;
-    border-radius: 10px 10px 0 0;
 }
 
 h1 {
-    width: 448.3999938964844;
-    height: 38;
+    width: 507px;
+    height: 38px;
     position: absolute;
     top: 33px;
     left: 51px;
     opacity: 1;
     color: white;
+    font-size: 1.8em;
 }
 
 #convert-input {
@@ -75,7 +77,7 @@ input::-webkit-inner-spin-button {
     opacity: 1;
     border-top-left-radius: 4.68px;
     background-color: #FFFFFF;
-    /* padding: 5px 20px; */
+    border-radius: 10px 10px 10px 10px;
 }
 
 .length {
@@ -96,6 +98,6 @@ input::-webkit-inner-spin-button {
     left: 25px;
 }
 
-.conversion-section {
+/* .conversion-section {
     border-radius: 0 0 10px 10px;
-}
+} */
